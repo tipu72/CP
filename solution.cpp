@@ -8,17 +8,16 @@ void mySolution()
 {
 	int n;
 	cin>>n;
-
+	
 }
 
 int main()
 {
-	int t=1;
-	cin>>t;
-	while (t--)
-	{
-		mySolution();
-	}
-	
+	ios::sync_with_stdio(false);
+  	cin.tie(nullptr);
+  
+	int T=1; cin>>T;
+	while(T--) mySolution();
+
 	return 0;
 }
